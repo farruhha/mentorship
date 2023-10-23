@@ -1,1 +1,1 @@
-I wanna learn c++ with my bro
+This is a mentorship program to teach C++ for everyone else.
