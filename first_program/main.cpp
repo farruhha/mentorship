@@ -20,35 +20,35 @@ int main()
     cin >> operation;
     
    
-    cout << "The first variable value: " << firstVariable << endl;
-    cout << "The second variable value: " << secondVariable << endl;
-    cout << "The operation: " << operation << endl;
+    cout << "The first variable value:" << firstVariable << endl;
+    cout << "The second variable value:" << secondVariable << endl;
+    cout << "The operation:" << operation << endl;
     
     switch(operation){
         case '+':
-             result=firstVariable+secondVariable;
-            cout<<"Result of addition:"<<firstVariable<< "+" <<secondVariable<<"="<<result<<endl;
+             result = firstVariable + secondVariable;
+            cout<< "Result of addition:"<< firstVariable<< "+" << secondVariable << "=" << result<< endl;
             break;
             
         case '-':
           result=firstVariable-secondVariable;
-            cout<<"Result of subtraction:"<<firstVariable<< "-" <<secondVariable<<"="<<result<<endl;
+            cout<< "Result of subtraction:"<< firstVariable<< "-" << secondVariable << "=" <<result<< endl;
             break;
 
         case '/':
             if(secondVariable !=0){
                 result=firstVariable/secondVariable;
-                cout<<"Result of division:"<<firstVariable<< "/" <<secondVariable<<"="<<result<<endl;
+                cout<< "Result of division:" << firstVariable<< "/" <<secondVariable << "=" << result<<endl;
                 break;
             }else{
-                cout<<"you cannot divide number by zero"<<endl;
+                cout<< "you cannot divide number by zero" << endl;
             }
             
                     break;
             
         case '*':
           result=firstVariable*secondVariable;
-            cout<<"Result of multiplication:"<<firstVariable<< "*" <<secondVariable<<"="<<result<<endl;
+            cout<< "Result of multiplication: " << firstVariable << "*" << secondVariable << "=" << result << endl;
             break;
                     break;
         default:
