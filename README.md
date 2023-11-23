@@ -1,4 +1,4 @@
 # mentorship
-I'm working with my mantees on this project to teach C__
+This is a mentorship project to teach C++ for one of my mantees. This project is nothing but raw unreadable codes for teaching purposes while training them to learn C++ programming from scratch.
 
 

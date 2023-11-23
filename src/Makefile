@@ -1,12 +1,12 @@
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall
+CXXFLAGS = -std=c++17 -Wall
 
 # Source code and object files
-SOURCES = $(wildcard src/*.cpp)
+SOURCES = $(wildcard src/**/*.cpp)
 OBJECTS = $(SOURCES:src/%.cpp=obj/%.o)
 
 # Executable name
-EXECUTABLE = myprogram
+EXECUTABLE = mentorship
 
 # Build the executable
 all: $(EXECUTABLE)
