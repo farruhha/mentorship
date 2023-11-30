@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // Finding the largest and smallest elements of an array
     int max = 0;
     cout << "ENTER THE NUMBER OF ARRAY:" << endl;
     int size;

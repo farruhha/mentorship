@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // Initialize and print all elements of a 2D array
     const int size1 = 2;
     const int size2 = 3;
     int arr[size1][size2] = {

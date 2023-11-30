@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // Writing a program to find the sum and product of all elements of an array
     int numbers[10];
     int sum = 0;
     cout << "Enter 10 integers:" << endl;

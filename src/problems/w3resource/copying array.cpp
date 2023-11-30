@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+    // Take 10 integers and store them in an array, then store them in another array."
+
     int numbers[10];
     int anotherNumber;
     // 1,2,3,4,5,6,7,8,9,10
