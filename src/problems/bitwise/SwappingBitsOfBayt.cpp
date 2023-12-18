@@ -3,6 +3,8 @@
 using namespace std;
 void swapBits(unsigned char &byte, int i, int j)
 {
+    //Swapping of two bits of a byte using C++ program: Here, we will learn how to swap two bits of a byte?
+    
     // Extract the values of the i-th and j-th bits
     // 00001111
     // postion i=2 j=6
